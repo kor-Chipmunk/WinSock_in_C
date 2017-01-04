@@ -1,0 +1,11 @@
+﻿  소스.cpp
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\nameresolution\nameresolution\소스.cpp(23): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(2238): note: 'gethostbyname' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\nameresolution\nameresolution\소스.cpp(34): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(2216): note: 'gethostbyaddr' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\nameresolution\nameresolution\소스.cpp(38): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: 'strncpy' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\nameresolution\nameresolution\소스.cpp(55): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+  NameResolution.vcxproj -> C:\Users\tmi2\Desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\Chapter 03 소켓 주소 구조체 다루기\NameResolution\Debug\NameResolution.exe
+  NameResolution.vcxproj -> C:\Users\tmi2\Desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\Chapter 03 소켓 주소 구조체 다루기\NameResolution\Debug\NameResolution.pdb (Full PDB)

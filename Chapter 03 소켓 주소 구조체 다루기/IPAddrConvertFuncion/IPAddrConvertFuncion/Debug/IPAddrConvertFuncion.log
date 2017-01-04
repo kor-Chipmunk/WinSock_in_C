@@ -1,0 +1,13 @@
+﻿  소스.cpp
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\ipaddrconvertfuncion\ipaddrconvertfuncion\소스.cpp(20): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\ipaddrconvertfuncion\ipaddrconvertfuncion\소스.cpp(24): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\ipaddrconvertfuncion\ipaddrconvertfuncion\소스.cpp(25): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\ipaddrconvertfuncion\ipaddrconvertfuncion\소스.cpp(39): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(3623): note: 'WSAStringToAddressA' 선언을 참조하십시오.
+c:\users\tmi2\desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\chapter 03 소켓 주소 구조체 다루기\ipaddrconvertfuncion\ipaddrconvertfuncion\소스.cpp(49): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files\windows kits\8.1\include\um\winsock2.h(3556): note: 'WSAAddressToStringA' 선언을 참조하십시오.
+  IPAddrConvertFuncion.vcxproj -> C:\Users\tmi2\Desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\Chapter 03 소켓 주소 구조체 다루기\IPAddrConvertFuncion\Debug\IPAddrConvertFuncion.exe
+  IPAddrConvertFuncion.vcxproj -> C:\Users\tmi2\Desktop\개인자료\2학년\김선재 겨울방학 공부\소켓\Chapter 03 소켓 주소 구조체 다루기\IPAddrConvertFuncion\Debug\IPAddrConvertFuncion.pdb (Full PDB)
