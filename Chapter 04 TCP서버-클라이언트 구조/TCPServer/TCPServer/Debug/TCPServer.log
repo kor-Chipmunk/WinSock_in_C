@@ -1,0 +1,9 @@
+﻿  TCPServer.cpp
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 04 tcp서버-클라이언트 구조\tcpserver\tcpserver\tcpserver.cpp(81): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 04 tcp서버-클라이언트 구조\tcpserver\tcpserver\tcpserver.cpp(98): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 04 tcp서버-클라이언트 구조\tcpserver\tcpserver\tcpserver.cpp(113): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+  TCPServer.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 04 TCP서버-클라이언트 구조\TCPServer\Debug\TCPServer.exe
+  TCPServer.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 04 TCP서버-클라이언트 구조\TCPServer\Debug\TCPServer.pdb (Full PDB)
