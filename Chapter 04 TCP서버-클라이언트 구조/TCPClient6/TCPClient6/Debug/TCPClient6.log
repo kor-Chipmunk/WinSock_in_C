@@ -1,0 +1,5 @@
+﻿  TCPClient6.cpp
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 04 tcp서버-클라이언트 구조\tcpclient6\tcpclient6\tcpclient6.cpp(77): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3623): note: 'WSAStringToAddressA' 선언을 참조하십시오.
+  TCPClient6.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 04 TCP서버-클라이언트 구조\TCPClient6\Debug\TCPClient6.exe
+  TCPClient6.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 04 TCP서버-클라이언트 구조\TCPClient6\Debug\TCPClient6.pdb (Full PDB)

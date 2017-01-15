@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|Win32|C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 04 TCP서버-클라이언트 구조\TCPClient6\|
