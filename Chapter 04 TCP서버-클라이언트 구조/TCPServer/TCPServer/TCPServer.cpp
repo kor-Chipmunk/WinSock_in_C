@@ -48,7 +48,8 @@ int main(int argc, char *argv[])
 
 	// bind()
 	SOCKADDR_IN serveraddr;
-	ZeroMemory(&serveraddr, sizeof(serveraddr));
+	ZeroMemory(&serveraddr, sizeof(serveraddr));		// 윈도우 API 함수
+	// memset(&serveraddr, 0, sizeof(serveraddr));		// C 표준 함수
 	serveraddr.sin_family = AF_INET;
 	serveraddr.sin_addr.S_un.S_addr = htonl(INADDR_ANY);
 	serveraddr.sin_port = htons(SERVERPORT);
