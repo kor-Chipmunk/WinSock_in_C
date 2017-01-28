@@ -1,0 +1,7 @@
+﻿  TCPClient_Variable.cpp
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 05 데이터 전송하기\tcpclient_variable\tcpclient_variable\tcpclient_variable.cpp(74): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 05 데이터 전송하기\tcpclient_variable\tcpclient_variable\tcpclient_variable.cpp(93): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: 'strncpy' 선언을 참조하십시오.
+  TCPClient_Variable.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 05 데이터 전송하기\TCPClient_Variable\Debug\TCPClient_Variable.exe
+  TCPClient_Variable.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 05 데이터 전송하기\TCPClient_Variable\Debug\TCPClient_Variable.pdb (Full PDB)

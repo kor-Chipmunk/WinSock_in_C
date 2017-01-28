@@ -1,0 +1,9 @@
+﻿  TCPServer_Variable.cpp
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 05 데이터 전송하기\tcpserver_variable\tcpserver_variable\tcpserver_variable.cpp(126): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 05 데이터 전송하기\tcpserver_variable\tcpserver_variable\tcpserver_variable.cpp(140): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\chipmunk\documents\visual studio 2015\projects\winsock_in_c\chapter 05 데이터 전송하기\tcpserver_variable\tcpserver_variable\tcpserver_variable.cpp(147): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+  TCPServer_Variable.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 05 데이터 전송하기\TCPServer_Variable\Debug\TCPServer_Variable.exe
+  TCPServer_Variable.vcxproj -> C:\Users\Chipmunk\Documents\Visual Studio 2015\Projects\WinSock_in_C\Chapter 05 데이터 전송하기\TCPServer_Variable\Debug\TCPServer_Variable.pdb (Full PDB)
