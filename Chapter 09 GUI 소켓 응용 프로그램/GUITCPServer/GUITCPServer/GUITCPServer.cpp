@@ -16,7 +16,7 @@ void err_quit(char *msg);
 void err_display(char *msg);
 // 소켓 통신 스레드 함수
 DWORD WINAPI ServerMain(LPVOID arg);
-DWORD WINAPI I_RpcOpenClientProcess(LPVOID arg);
+DWORD WINAPI ProcessClient(LPVOID arg);
 
 HINSTANCE hInst;		// 인스턴스 핸들
 HWND hEdit;				// 편집 컨트롤
@@ -122,7 +122,7 @@ void err_quit(char *msg)
 }
 
 // 소켓 함수 오류 출력
-void err_quit(char *msg)
+void err_display(char *msg)
 {
 	LPVOID lpMsgBuf;
 	FormatMessage(
@@ -177,7 +177,7 @@ DWORD WINAPI ServerMain(LPVOID arg)
 		}
 
 		// 접속한 클라이언트 정보 출력
-		DisplayText("\r\n[TCP 서버] 클라이언트 접속: IP 주소=%s, 포트 번호=%\r\n",
+		DisplayText("\r\n[TCP 서버] 클라이언트 접속: IP 주소=%s, 포트 번호=%d\r\n",
 			inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port));
 
 		// 스레드 생서 
@@ -204,7 +204,7 @@ DWORD WINAPI ProcessClient(LPVOID arg)
 	int addrlen;
 	char buf[BUFSIZE + 1];
 
-	// 클라잉너트 정보 얻기
+	// 클라이언트 정보 얻기
 	addrlen = sizeof(clientaddr);
 	getpeername(client_sock, (SOCKADDR *)&clientaddr, &addrlen);
 
