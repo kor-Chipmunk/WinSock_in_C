@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AsyncSelectTCPServer.cpp">
+    <ClCompile Include="EventSelectTCPServer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
